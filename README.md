@@ -20,13 +20,22 @@ Features: 480+ after preprocessing
 
 Key Columns
 Feature	Description
+
 Charging Duration (hours)	Duration of each charging session
+
 Energy Consumed (kWh)	Total energy used during charging
+
 Charging Rate (kW)	Power level of charging
+
 Charger Type	Type of charger (Level 1 / Level 2 / DC Fast)
+
 Vehicle Model	Type of EV model used
+
+
 Charging Station Location	Location ID of station
+
 User Type (Target)	Label indicating type of user behavior
+
 ⚙️ Data Preprocessing
 
 Missing Values:
@@ -80,4 +89,4 @@ SMOTE effectively mitigated class imbalance issues, improving minority user clas
 
 Models were evaluated on accuracy, precision, recall, and F1-score using the test set.
 
-Example code used for evaluation:
+
